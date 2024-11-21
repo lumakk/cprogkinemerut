@@ -9,7 +9,7 @@ int main()
     printf("What is your name?\n");
     scanf("%s", &name);
 
-    printf("Are you recommended by Jedi Master Obi Wan? (Asnwer in numbers: Y = 1, N = 0)\n");
+    printf("What is your recommendee's code? (Asnwer in numbers: Y = 1, N = 0)\n");
     scanf("%d", &recommendation);
     if (recommendation == 1)
     {
