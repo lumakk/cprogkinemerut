@@ -19,7 +19,7 @@ scanf("%d", &age);
 printf("Educational: ");
 scanf("%d", &educ);
 
-printf("Name: %s", name)
+printf("\nName: %s", name);
 if (height >= 5)
     if (weight == 50)
         if (age >= 18)
