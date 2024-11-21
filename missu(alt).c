@@ -26,17 +26,17 @@ printf("\nName: %s", name);
                 switch(educ)
                     {
                         case 1:
-                            printf("\nBongga!!!");
+                            printf("\nBongga, pasok ka na!!!");
                             break;
                         case 2:
-                            printf("\nPractice ka muna.");
+                            printf("\nAral muna ya.");
                             break;
                         default:
                             printf("\nUnspecified");
                             break;
                     }
-            else printf("\nPractice ka muna.");
-        else printf("\nPractice ka muna.");
-    else printf("\nPractice ka muna.");
+            else printf("\nGrow up ka muna as an applicant.");
+        else printf("\nGawa ka muna healthy goals.");
+    else printf("\nMagcherifer ka na lang.");
     return 0;
 }
