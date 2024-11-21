@@ -17,13 +17,13 @@ scanf("%s", &name);
 printf("Please enter your age: ");
 scanf("%d", &age);
 
-printf("Please enter your height: ");
+printf("Please enter your height (in cm): ");
 scanf("%d", &height);
 
-printf("Please enter your citizenship code: ");
+printf("Please enter your citizenship code (1 - Citizen of Planet Endor | 0 - not ci): ");
 scanf("%d", &citizenshipCode);
 
-printf("Please enter your recomendee's code: ");
+printf("Please enter your recomendee's code (1 - Recomendee of Master Obi Wan | 0 - not recomendee): ");
 scanf("%d", &recomendeesCode);
 
 if(age > 0 && height > 0 && recomendeesCode == 1 || 0 && citizenshipCode == 1 || 0){
