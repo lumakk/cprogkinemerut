@@ -21,7 +21,6 @@ scanf("%d", &educ);
 
 printf("\nName: %s", name);
     if (height >= 5) 
-    {
         if (weight == 50)
             if (age >= 18)
                 switch(educ)
@@ -36,10 +35,8 @@ printf("\nName: %s", name);
                             printf("\nUnspecified");
                             break;
                     }
-    }
-    else
-    {
-        printf("\nPractice ka muna.");
-    }
+    else printf("\nPractice ka muna.");
+    else printf("\nPractice ka muna.");
+    else printf("\nPractice ka muna.");
     return 0;
 }
