@@ -30,7 +30,7 @@ if(age > 0 && height > 0 && recomendeesCode == 1 || 0 && citizenshipCode == 1 ||
     if (recomendeesCode == 1){
         printf("Congrats, %s! You're accepted to the Jedi Knight Academy.", name);
     } else if (recomendeesCode == 0){
-        if(age <= 21 && age >= 25){
+        if(age >= 21 && age <= 25){
             if(citizenshipCode == 1){
                 if(height >= 200){
                     printf("Congrats %s! You're accepted to the Jedi Knight Academy.", name);
