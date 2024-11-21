@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int main(){
+int main() {
 
 char name[80];
 float height;
 float weight;
 int age;
-int educ; // 1 = elem, 2 = hs, 3 = college
+int educ; // 1 HS grad, 2 = not
 
 printf("Name: ");
 scanf("%s", name);
@@ -16,18 +16,17 @@ printf("Weight: ");
 scanf("%f", &weight);
 printf("Age: ");
 scanf("%d", &age);
-printf("Educational: ");
+printf("Educational (1 = HS grad, 2 = not): ");
 scanf("%d", &educ);
 
 printf("\nName: %s", name);
-if (height >= 5)
-    if (weight == 50)
-        if (age >= 18)
-            if (educ == 2 || 3)
-                printf("\nBongga!!!");
-else
-    printf("\nPractice ka muna.");
+    if (height >= 5) {
+        if (weight == 50)
+            if (age >= 18)
+                if (educ == 1)
+                    printf("\nBongga!!!"); }
+    else
+        printf("\nPractice ka muna.");
 
-return 0;
-
+    return 0;
 }
