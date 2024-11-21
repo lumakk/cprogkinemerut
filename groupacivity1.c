@@ -20,7 +20,7 @@ scanf("%d", &age);
 printf("Please enter your height (in cm): ");
 scanf("%d", &height);
 
-printf("Please enter your citizenship code (1 - Citizen of Planet Endor | 0 - not ci): ");
+printf("Please enter your citizenship code (1 - Citizen of Planet Endor | 0 - not citizen): ");
 scanf("%d", &citizenshipCode);
 
 printf("Please enter your recomendee's code (1 - Recomendee of Master Obi Wan | 0 - not recomendee): ");
