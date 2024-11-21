@@ -10,9 +10,9 @@ int educ; // 1 HS grad, 2 = not
 
 printf("Name: ");
 scanf("%s", name);
-printf("Height: ");
+printf("Height (in.): ");
 scanf("%f", &height);
-printf("Weight: ");
+printf("Weight (kg.): ");
 scanf("%f", &weight);
 printf("Age: ");
 scanf("%d", &age);
