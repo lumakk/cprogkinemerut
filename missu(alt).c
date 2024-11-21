@@ -35,8 +35,8 @@ printf("\nName: %s", name);
                             printf("\nUnspecified");
                             break;
                     }
-    else printf("\nPractice ka muna.");
-    else printf("\nPractice ka muna.");
+            else printf("\nPractice ka muna.");
+        else printf("\nPractice ka muna.");
     else printf("\nPractice ka muna.");
     return 0;
 }
