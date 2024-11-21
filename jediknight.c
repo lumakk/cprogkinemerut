@@ -4,9 +4,7 @@ int main()
 
 {
 
-    int height;
-    int age;
-    char citizen;
+    int height, age, citizenship, recommendation;
 
     printf("What is your height?\n");
     scanf("%d", &height);
